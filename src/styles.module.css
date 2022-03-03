@@ -1,0 +1,52 @@
+* {
+  align-items: center;
+  align-content: center;
+}
+.container {
+  align-items: 'center';
+  text-align: 'center';
+  margin-top: '10px';
+}
+
+.login {
+  align-content: center;
+  text-align: center;
+}
+
+.input {
+  margin: 100;
+}
+
+.convoBox {
+  margin-left: 10;
+  margin-top: 10;
+  border-style: solid;
+}
+
+.sender {
+  background-color: blue;
+  padding: 10;
+  color: red;
+  justify-content: right;
+  margin-right: 100px;
+}
+
+.recipient {
+  color: skyblue;
+  margin-left: 100px;
+}
+
+.Chatrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts {
+  overflow-y: scroll;
+}
+
+.conversationArea {
+  margin-left: 200px;
+  height: 500px;
+  overflow-y: scroll;
+}
