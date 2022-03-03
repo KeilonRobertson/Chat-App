@@ -1,0 +1,112 @@
+.container {
+  align-items: 'center';
+  text-align: 'center';
+  margin-top: '10px';
+}
+
+ul,
+li {
+  margin-top: 10px;
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+}
+
+.login {
+  align-content: center;
+  text-align: center;
+}
+
+.input {
+  margin: 100;
+}
+
+.convoBox {
+  margin-left: 10;
+  margin-top: 10;
+  border-style: solid;
+}
+
+.colour-theme {
+  background-color: #0081cb;
+}
+
+.liked {
+  color: red;
+}
+
+.message-container-sender {
+  margin-left: auto;
+  max-width: 800px;
+}
+
+.message-container-recipient {
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.avatar-recipient {
+  margin: 10px;
+  margin-right: auto;
+}
+
+.avatar-sender {
+  margin: 10px;
+  margin-left: auto;
+}
+
+.ticks {
+  margin: 1px;
+  margin-left: auto;
+}
+
+.sender {
+  border-radius: 10px;
+  background: #0081cb;
+  padding: 10px;
+  color: whitesmoke;
+  margin-bottom: 5px;
+  max-width: 700px;
+}
+
+.recipient {
+  border-radius: 10px;
+  background: #e7eaeb;
+  color: black;
+  padding: 10px;
+  margin-bottom: 5px;
+  max-width: 700px;
+}
+
+.chat-page {
+  display: flex;
+}
+
+.contacts {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  text-align: center;
+}
+
+.convo-container {
+  height: 400px;
+  width: 1200px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+.time {
+  margin-left: 20px;
+}
+
+.conversation-area {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  overflow-y: scroll;
+  max-width: 100%;
+}
